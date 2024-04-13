@@ -12,7 +12,7 @@ intents.typing = False
 intents.presences = False
 
 token = os.environ['DISCORD_TOKEN']
-channel_id = 7389748937123 # random
+channel_id = 7389748937123 # random number not a channel
 
 bot = commands.Bot(command_prefix="/", intents=intents)
 bot.remove_command("help")
