@@ -1,5 +1,3 @@
-#stole this obfuscator but im modifying it thats all for myself
-
 import discord
 from discord.ext import commands, tasks
 import requests
@@ -14,7 +12,7 @@ intents.typing = False
 intents.presences = False
 
 token = os.environ['DISCORD_TOKEN']
-channel_id = 1163172336082620436
+channel_id = 7389748937123 # random
 
 bot = commands.Bot(command_prefix="/", intents=intents)
 bot.remove_command("help")
